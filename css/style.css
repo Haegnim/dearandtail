@@ -72,4 +72,27 @@ main {
   width: 100%;
   height: 100vh;
   background: cornsilk;
+  display: flex;
+}
+main article {
+  width: 70%;
+  height: 100%;
+}
+main article section {
+  width: 100%;
+  height: 100%;
+}
+main article section:nth-child(1) {
+  background: #777;
+}
+main article section:nth-child(2) {
+  background: #555;
+}
+main article section:nth-child(3) {
+  background: #777;
+}
+main .user-section {
+  width: 30%;
+  height: 100%;
+  background: #fff;
 }
